@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CAD5EA375C75989269EBE524552EB8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */; };
+		0FD9CE46A8216B4ECF03D0F0F4C7BDDE /* Pods-Qase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F446576D12511A6D0874B9DE0342777 /* Pods-Qase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B021DC21ABAD8759CB9E651DC280417 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC90F150551F475575EDC7AC0396254 /* XCTestCase+Extension.swift */; };
+		33E1716EF3CBD987CE8002FF9A6EB1E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		4C8F8FD7B2BD9C7D241D9C814387E551 /* Pods-Qase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DC7B0E581343D1CE072228A6DEC305 /* Pods-Qase_Tests-dummy.m */; };
+		628E1D81E433B31749857BB7DB1CFCD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		68CCF9C78A0EE7D506963179E6AA6A46 /* Pods-Qase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A251CD51267E97986F0D21CE7B6C77 /* Pods-Qase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F6C9F7E36F291A3099BACCFAA19BF82 /* Pods-Qase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE7CED872EA63F7F7A9745B587A2FF /* Pods-Qase_Example-dummy.m */; };
+		723F3FAB473D8C5FE9B718A7FE1B2553 /* Qase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA427D255C78D2647CFBE79477340DC /* Qase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881C0E72DBAD0DF58CAD1A141A1F1E3E /* Qase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C35487E5C9D1A08314A31B53C1424 /* Qase-dummy.m */; };
+		F11B5ACF71E62E2EB2E4704A243DCD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99076F3D85990985A09290FBE2982596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FE5036BE847E6CA2849AAC312C8C73;
+			remoteInfo = "Pods-Qase_Example";
+		};
+		D41450897AA830055E1E245FAED3D360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 066019CAEF154EA236E03DBF5087380D;
+			remoteInfo = Qase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06A251CD51267E97986F0D21CE7B6C77 /* Pods-Qase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Qase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0C750C056D95EEE742F9C6B575EE4A12 /* Pods-Qase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Qase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EA9F6D28EB8E098B2088DC06333FA17 /* Qase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F446576D12511A6D0874B9DE0342777 /* Pods-Qase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Qase_Example-umbrella.h"; sourceTree = "<group>"; };
+		0FC90F150551F475575EDC7AC0396254 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+Extension.swift"; path = "Qase/Classes/XCTestCase+Extension.swift"; sourceTree = "<group>"; };
+		27FA82A27621FFCF2316F68537BFB91D /* Pods-Qase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		29771116463B343463CED0140068FF17 /* Pods-Qase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Qase_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39EE7CED872EA63F7F7A9745B587A2FF /* Pods-Qase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Qase_Example-dummy.m"; sourceTree = "<group>"; };
+		431064CEEBDCCBF8519CC0329080E02C /* Pods_Qase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DC7B0E581343D1CE072228A6DEC305 /* Pods-Qase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Qase_Tests-dummy.m"; sourceTree = "<group>"; };
+		48EF8717C78F7A1AD4B414B76FE7B168 /* Pods-Qase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4B281ACB11058AF470C00A396C721F /* Qase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Qase.modulemap; sourceTree = "<group>"; };
+		666D8CBB1DC1CD21C24755AAC41DEAB6 /* Qase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Qase-Info.plist"; sourceTree = "<group>"; };
+		78875298A6A26F8A33EB61F4F6AAF8FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F5CC52883321FD1569A8679D54DD04B /* Pods-Qase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Qase_Example.modulemap"; sourceTree = "<group>"; };
+		8AB41900A32F41AC29D152F96908BBEE /* Qase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Qase.release.xcconfig; sourceTree = "<group>"; };
+		94F9AC1815553F7509F973512E90B887 /* Pods-Qase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		966C35487E5C9D1A08314A31B53C1424 /* Qase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Qase-dummy.m"; sourceTree = "<group>"; };
+		9BCBB55E43D0B3A48B8B56DE812103DF /* Pods-Qase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Qase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B21720560312DDB92880026ABAC9D0BC /* Qase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Qase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4C7B7D9FE3DCF14CA13EF8BF85DD935 /* Pods-Qase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Qase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6504EE1D630BEBD1BF82893F635C03A /* Pods-Qase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Qase_Tests.modulemap"; sourceTree = "<group>"; };
+		BCA427D255C78D2647CFBE79477340DC /* Qase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Qase-umbrella.h"; sourceTree = "<group>"; };
+		C9C6341AB41859157ACBA064BADD889A /* Pods-Qase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Qase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7EDFA0215357BD7EEAE31A8F1875F45 /* Pods-Qase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD45A01577C94ADA81F802C02CDE5F0C /* Pods-Qase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Qase_Example-Info.plist"; sourceTree = "<group>"; };
+		E88D897EF07A57B79714AFA54E539D15 /* Pods-Qase_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Qase_Tests-Info.plist"; sourceTree = "<group>"; };
+		F04978D7ACA5609D6027E38F7B15439E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F8362CAE21352A3325E149B0C03315E6 /* Qase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Qase.debug.xcconfig; sourceTree = "<group>"; };
+		F8EEFEBDBD05CA637546DB05E79FC142 /* Qase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Qase-prefix.pch"; sourceTree = "<group>"; };
+		FA19B51A658D262B517EE46CD5FAADD4 /* Pods_Qase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5351D87F385F5DAE28782F1979A45274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628E1D81E433B31749857BB7DB1CFCD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03E4138539DB3D6C32AE0E60A42A9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11B5ACF71E62E2EB2E4704A243DCD3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECB5D03033416735F93D399A1B61532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E1716EF3CBD987CE8002FF9A6EB1E1 /* Foundation.framework in Frameworks */,
+				0CAD5EA375C75989269EBE524552EB8C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E285571EF144F8DACCF451128B351DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16B5E8F8DFB1C51AE37A0FF7260973F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F04978D7ACA5609D6027E38F7B15439E /* LICENSE */,
+				B21720560312DDB92880026ABAC9D0BC /* Qase.podspec */,
+				78875298A6A26F8A33EB61F4F6AAF8FF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1741037E16CBFFD8EC36B8065535B665 /* Qase */ = {
+			isa = PBXGroup;
+			children = (
+				0FC90F150551F475575EDC7AC0396254 /* XCTestCase+Extension.swift */,
+				16B5E8F8DFB1C51AE37A0FF7260973F0 /* Pod */,
+				B13D4BF9EBB16BC0E3AE5B3E03F2AA03 /* Support Files */,
+			);
+			name = Qase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3E285571EF144F8DACCF451128B351DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */,
+				2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46AC946600D525AF30CD4D2E7F8D9487 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				827D553661E45CC6AD93FEF89D8477F0 /* Pods-Qase_Example */,
+				AB00D3AA1250C34AD236713E7F1FB4D3 /* Pods-Qase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BD5318071B46E507D5196F86868C25D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1741037E16CBFFD8EC36B8065535B665 /* Qase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		711B4F2CDB6DE2A43DE5F4700AE584D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA19B51A658D262B517EE46CD5FAADD4 /* Pods_Qase_Example.framework */,
+				431064CEEBDCCBF8519CC0329080E02C /* Pods_Qase_Tests.framework */,
+				0EA9F6D28EB8E098B2088DC06333FA17 /* Qase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827D553661E45CC6AD93FEF89D8477F0 /* Pods-Qase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7F5CC52883321FD1569A8679D54DD04B /* Pods-Qase_Example.modulemap */,
+				B4C7B7D9FE3DCF14CA13EF8BF85DD935 /* Pods-Qase_Example-acknowledgements.markdown */,
+				C9C6341AB41859157ACBA064BADD889A /* Pods-Qase_Example-acknowledgements.plist */,
+				39EE7CED872EA63F7F7A9745B587A2FF /* Pods-Qase_Example-dummy.m */,
+				DD45A01577C94ADA81F802C02CDE5F0C /* Pods-Qase_Example-Info.plist */,
+				0F446576D12511A6D0874B9DE0342777 /* Pods-Qase_Example-umbrella.h */,
+				48EF8717C78F7A1AD4B414B76FE7B168 /* Pods-Qase_Example.debug.xcconfig */,
+				D7EDFA0215357BD7EEAE31A8F1875F45 /* Pods-Qase_Example.release.xcconfig */,
+			);
+			name = "Pods-Qase_Example";
+			path = "Target Support Files/Pods-Qase_Example";
+			sourceTree = "<group>";
+		};
+		AB00D3AA1250C34AD236713E7F1FB4D3 /* Pods-Qase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6504EE1D630BEBD1BF82893F635C03A /* Pods-Qase_Tests.modulemap */,
+				9BCBB55E43D0B3A48B8B56DE812103DF /* Pods-Qase_Tests-acknowledgements.markdown */,
+				0C750C056D95EEE742F9C6B575EE4A12 /* Pods-Qase_Tests-acknowledgements.plist */,
+				47DC7B0E581343D1CE072228A6DEC305 /* Pods-Qase_Tests-dummy.m */,
+				29771116463B343463CED0140068FF17 /* Pods-Qase_Tests-frameworks.sh */,
+				E88D897EF07A57B79714AFA54E539D15 /* Pods-Qase_Tests-Info.plist */,
+				06A251CD51267E97986F0D21CE7B6C77 /* Pods-Qase_Tests-umbrella.h */,
+				94F9AC1815553F7509F973512E90B887 /* Pods-Qase_Tests.debug.xcconfig */,
+				27FA82A27621FFCF2316F68537BFB91D /* Pods-Qase_Tests.release.xcconfig */,
+			);
+			name = "Pods-Qase_Tests";
+			path = "Target Support Files/Pods-Qase_Tests";
+			sourceTree = "<group>";
+		};
+		B13D4BF9EBB16BC0E3AE5B3E03F2AA03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B281ACB11058AF470C00A396C721F /* Qase.modulemap */,
+				966C35487E5C9D1A08314A31B53C1424 /* Qase-dummy.m */,
+				666D8CBB1DC1CD21C24755AAC41DEAB6 /* Qase-Info.plist */,
+				F8EEFEBDBD05CA637546DB05E79FC142 /* Qase-prefix.pch */,
+				BCA427D255C78D2647CFBE79477340DC /* Qase-umbrella.h */,
+				F8362CAE21352A3325E149B0C03315E6 /* Qase.debug.xcconfig */,
+				8AB41900A32F41AC29D152F96908BBEE /* Qase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Qase";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5BD5318071B46E507D5196F86868C25D /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				711B4F2CDB6DE2A43DE5F4700AE584D9 /* Products */,
+				46AC946600D525AF30CD4D2E7F8D9487 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32BE6516375888F5A9696242894ADBE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723F3FAB473D8C5FE9B718A7FE1B2553 /* Qase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D82A5755DA73F3D1D314FCEEDDA2F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CCF9C78A0EE7D506963179E6AA6A46 /* Pods-Qase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF437785478444E0AC9DCF12900D0FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD9CE46A8216B4ECF03D0F0F4C7BDDE /* Pods-Qase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		066019CAEF154EA236E03DBF5087380D /* Qase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB113FBDE800DE358649449C08FFB3DE /* Build configuration list for PBXNativeTarget "Qase" */;
+			buildPhases = (
+				32BE6516375888F5A9696242894ADBE3 /* Headers */,
+				D9106C15960F0974F8D7F706A447E6F2 /* Sources */,
+				EECB5D03033416735F93D399A1B61532 /* Frameworks */,
+				6676F63319A7B4F1475B05E9BEDB492E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qase;
+			productName = Qase;
+			productReference = 0EA9F6D28EB8E098B2088DC06333FA17 /* Qase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		382D47E4252D9771DF394F339058AF0F /* Pods-Qase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8F691880AD8C4B2FDC5088F47958B2 /* Build configuration list for PBXNativeTarget "Pods-Qase_Tests" */;
+			buildPhases = (
+				80D82A5755DA73F3D1D314FCEEDDA2F8 /* Headers */,
+				F387FC6EC0543445DD7F9D4589DA6CC6 /* Sources */,
+				5351D87F385F5DAE28782F1979A45274 /* Frameworks */,
+				5A7342059757C3614AA85265F606FE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC5BFD8373570EA7211BF579571FC68 /* PBXTargetDependency */,
+				084D2CD5365700E38B7A01DA155C4A7D /* PBXTargetDependency */,
+			);
+			name = "Pods-Qase_Tests";
+			productName = "Pods-Qase_Tests";
+			productReference = 431064CEEBDCCBF8519CC0329080E02C /* Pods_Qase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FE5036BE847E6CA2849AAC312C8C73 /* Pods-Qase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B78C03CE2756F1842E95F7B1039DD38 /* Build configuration list for PBXNativeTarget "Pods-Qase_Example" */;
+			buildPhases = (
+				BF437785478444E0AC9DCF12900D0FE5 /* Headers */,
+				6E9B241E90342081CEC416E78B99D082 /* Sources */,
+				A03E4138539DB3D6C32AE0E60A42A9A9 /* Frameworks */,
+				0E14E5F594E9D214C945FE0146AF3B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Qase_Example";
+			productName = "Pods-Qase_Example";
+			productReference = FA19B51A658D262B517EE46CD5FAADD4 /* Pods_Qase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 711B4F2CDB6DE2A43DE5F4700AE584D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FE5036BE847E6CA2849AAC312C8C73 /* Pods-Qase_Example */,
+				382D47E4252D9771DF394F339058AF0F /* Pods-Qase_Tests */,
+				066019CAEF154EA236E03DBF5087380D /* Qase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E14E5F594E9D214C945FE0146AF3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7342059757C3614AA85265F606FE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6676F63319A7B4F1475B05E9BEDB492E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9B241E90342081CEC416E78B99D082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6C9F7E36F291A3099BACCFAA19BF82 /* Pods-Qase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9106C15960F0974F8D7F706A447E6F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881C0E72DBAD0DF58CAD1A141A1F1E3E /* Qase-dummy.m in Sources */,
+				1B021DC21ABAD8759CB9E651DC280417 /* XCTestCase+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F387FC6EC0543445DD7F9D4589DA6CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8F8FD7B2BD9C7D241D9C814387E551 /* Pods-Qase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		084D2CD5365700E38B7A01DA155C4A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Qase;
+			target = 066019CAEF154EA236E03DBF5087380D /* Qase */;
+			targetProxy = D41450897AA830055E1E245FAED3D360 /* PBXContainerItemProxy */;
+		};
+		DEC5BFD8373570EA7211BF579571FC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Qase_Example";
+			target = A0FE5036BE847E6CA2849AAC312C8C73 /* Pods-Qase_Example */;
+			targetProxy = 99076F3D85990985A09290FBE2982596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C35B4816282EB93C04130CF8B445B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F9AC1815553F7509F973512E90B887 /* Pods-Qase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Qase_Tests/Pods-Qase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qase_Tests/Pods-Qase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EA4B2CB54FA19D4254AF82E0E75AA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EDFA0215357BD7EEAE31A8F1875F45 /* Pods-Qase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Qase_Example/Pods-Qase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qase_Example/Pods-Qase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4845E6B4AB6677FAC6246C4E9C76A5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FA82A27621FFCF2316F68537BFB91D /* Pods-Qase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Qase_Tests/Pods-Qase_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qase_Tests/Pods-Qase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E0FE69D3586CCF7394A5F5BFBD0B05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8362CAE21352A3325E149B0C03315E6 /* Qase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Qase/Qase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Qase/Qase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Qase/Qase.modulemap";
+				PRODUCT_MODULE_NAME = Qase;
+				PRODUCT_NAME = Qase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE6BE9BCE189C737ED580AC7A7639D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EF8717C78F7A1AD4B414B76FE7B168 /* Pods-Qase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Qase_Example/Pods-Qase_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qase_Example/Pods-Qase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDEF4988DEB3F996D2C8B393726787E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB41900A32F41AC29D152F96908BBEE /* Qase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Qase/Qase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Qase/Qase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Qase/Qase.modulemap";
+				PRODUCT_MODULE_NAME = Qase;
+				PRODUCT_NAME = Qase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8F691880AD8C4B2FDC5088F47958B2 /* Build configuration list for PBXNativeTarget "Pods-Qase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C35B4816282EB93C04130CF8B445B95 /* Debug */,
+				4845E6B4AB6677FAC6246C4E9C76A5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B78C03CE2756F1842E95F7B1039DD38 /* Build configuration list for PBXNativeTarget "Pods-Qase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6BE9BCE189C737ED580AC7A7639D9C /* Debug */,
+				2EA4B2CB54FA19D4254AF82E0E75AA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB113FBDE800DE358649449C08FFB3DE /* Build configuration list for PBXNativeTarget "Qase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0FE69D3586CCF7394A5F5BFBD0B05B /* Debug */,
+				CDEF4988DEB3F996D2C8B393726787E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
